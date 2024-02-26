@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.im{
+    width: 30px;
+    height: 30px;
+}
+.boxim{
+    border-radius: 50%;
+    border:1px solid grey;
+    padding: 5px;
+    margin: 0 5px;
+    box-shadow: 4px 5px 45px 18px rgba(23,17,17,0.1);
+    -webkit-box-shadow: 4px 5px 45px 18px rgba(23,17,17,0.1);
+    -moz-box-shadow: 4px 5px 45px 18px rgba(23,17,17,0.1);
+}
+.ulnav{
+    margin-left: 198px;
+}
+.nav-item{
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.mycol{
+    background-image: url("https://modrent.travelerwp.com/wp-content/uploads/2022/05/Rectangle-1-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.mycol p{
+    font-size: 24px;
+}
+.mycol2{
+    height: 64px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 9px 0;
+    width: 80%;
+}
+.r1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-search{
+    padding: 7px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+}
+.btn-search:hover{
+    background-color: rgb(124, 40, 202);
+}
+.r1 svg{
+    width:20px;
+    height: 20px;
+     fill:white;  /*'remplissage d l image vectoriel(svg)' */
+     margin: 0 10px;
+ }
+ .continer3{
+    height: 500px;
+    margin-top: 30px;
+ }
+ .continer h3{
+   font-weight: bolder;
+   font-size: 35px;
+   font-family: "Poppins", sans-serif;
+ }
+ .topd{
+    display: flex;
+    justify-content: center;
+ }
+ .gallery img{
+    width: 200px;
+    height:200px ;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+ }
+ .gallery{
+    padding: 0 140px;
+    margin-top: 56px !important;
+    
+ }
+
+    
+
+
+      
+      .colg:hover .zoom {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      .zomim{
+        overflow: hidden;
+        border-radius: 83%;
+        height: 208px;
+        width: 214px;
+      }
+   .colg{
+    text-align: center;
+   }
+   .continer-room{
+    height: 940px;
+    background-color:#F7F8FA;
+    margin-top: -83px;
+   }
+   .continer-room h3{
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 420px;
+   }
+
+.continer-card{
+    margin-top: 30px !important;
+    padding: 50px !important;
+}
+.topd{
+    margin-top: 40px !important;
+}
+.carousel{
+    position: relative;
+    width: 70% !important;
+    margin-left: 220px !important;
+}
+.my-caro img{
+    max-height: 550px;
+}
+.offer2{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.offer2 img{
+        width: 455px;
+        height: 250px;
+            border-radius: 30px 0 0 30px !important;
+}
+
+.des{
+        background-color: #f3efef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        border-radius: 0 30px 30px 0;
+        height: 250px;
+        padding: 0px 50px;
+
+}
+.foot{
+    background-color: #f3efef;
+    width: 115%;
+    height:350px;
+}
+ul{
+    list-style-type:none;
+}
+.r1 a {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: grey;
+    text-decoration: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+.r2{
+    display: flex;
+    width: 2230px;
+}
+.r1{
+    display: flex;
+    align-items: center;
+}
+.c1{
+    margin-top: -16px !important;
+}
+.c3{
+    margin-top: -42px !important;
+}
+.c4{
+    margin-top: -80px !important;
+}
+.col-3 h4{
+    color: #232323;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.totop{
+    position: fixed;
+    bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 1245px;
+}
+.totop img{
+    width: 80px !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+   @media (max-width:768px)
+   {
+    .foot{
+        height: 100px !important;
+        margin-top: 130px !important;
+        width: 100% !important;
+        margin-left: 10px !important;
+        background-color: #f3efef;
+    }
+    .navbar-expand-lg{
+        width: 176% !important;
+    }
+    .rr1{
+        width: 178% !important;
+    }
+    .continer3{
+        display: flex;
+        width: 178% !important;
+        justify-content: row;
+        text-align: center !important;
+      
+    }
+    .gallery {
+        padding: 0 140px !important;
+        margin-top: 154px !important;
+        margin-left: -350px !important;
+        text-align: center;
+    }
+    .topd {
+        margin-top: 40px !important;
+        height: 150px !important;
+        margin-left: 387px !important;
+        padding: 10px !important;
+        text-align: center;
+    }
+    .topd h3{
+        margin-left: 10px;
+    }
+    .topd2{
+        margin-left: -10px;
+    }
+    .continer-room {
+        display: flex;
+        height: 100px !important;
+        margin-top: 289px !important;
+        width: 176% !important;
+        text-align: center;
+    }
+    .continer-card {
+        display: flex;
+        margin-top: 30px !important;
+        padding: 50px !important;
+        width: 176% !important;
+        margin-left: 150px !important;
+    }
+    .carousel-inner{
+        position: relative;
+        width: 243% !important;
+        overflow: hidden;
+        margin-left: -32px !important;
+        margin-top: 50px;
+    }
+    .offer2{
+        width: 175% !important;
+    }
+    .r1{
+        width: 170% !important;
+    }
+    .colg{
+        text-align: center;
+    }
+    .mycaro{
+        margin-top: 1895px !important;
+        width: 110% !important;
+        margin-left: 10px !important;
+    }
+   }
+@media(max-width:1200px){
+    .mycaro{
+    margin-top: 442px;
+    margin-left: 87px !important;
+    }
+    .rr1{
+        width: 122%;
+        margin: 1px 2px !important;
+    }
+    .nan1 {
+        flex-wrap: flex;
+        justify-content: space-between;
+        width: 110% !important;
+    }
+    .continer3 {
+        height: 500px;
+        margin-top: 30px;
+        width: 122%;
+        margin-left: -24px;
+    }
+    .totop img {
+        width: 85px !important;
+        margin-left: -52px;
+    }
+    .continer-room{
+        width: 124%;
+    }
+    .carousel-inner {
+        margin-top: -310px !important;
+        width: 157% !important;
+        margin-left: -71px !important;
+    }
+    .foot{
+        width: 113% !important;
+    }
+    .rr2{
+        margin-left: 90px !important;
+        width: 110% !important;
+    }
+    .nn1{
+        width: 114%;
+    }
+    .topd2 h3{
+        margin-left: 439px;
+    }
+}
+
